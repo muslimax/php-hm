@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
+    <title><?= $title?></title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/all.css">
     <link rel="stylesheet" href="style/style.css">
@@ -15,8 +15,8 @@
         <header class="header">
             <a href="/" class="logo">PROWEB</a>
             <div class="singIn">
-                <a href="/page/login.php" class="singIn__link">Вход</a>
-                <a href="/page/registration.php" class="singIn__link">Регистрация</a>
+                <a href="/?route=login" class="singIn__link">Вход</a>
+                <a href="/?route=registration" class="singIn__link">Регистрация</a>
             </div>
             <div class="user">
                 <div class="user__profile">

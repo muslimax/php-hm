@@ -1,5 +1,9 @@
 
         <main class="main">
+            <section class="head">
+                <h2 class="head__title"><?= $title?></h2>
+                <p class="head__date"><?= $date?></p>
+            </section>
             <? 
                 // $name = 'Вася';
                 // echo 'Привет <br>' . $name;
